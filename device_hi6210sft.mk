@@ -39,6 +39,10 @@ PRODUCT_PACKAGES += \
     	tinypcminfo \
     	tinymix
 
+PRODUCT_COPY_FILES += \
+	$(LOCAL_PATH)/rootdir/system/etc/audio_effects.conf:system/etc/audio_effects.conf \
+	$(LOCAL_PATH)/rootdir/system/etc/audio_policy.conf:system/etc/audio_policy.conf
+
 # Bionic
 PRODUCT_COPY_FILES += \
     	bionic/libc/zoneinfo/tzdata:root/system/usr/share/zoneinfo/tzdata
