@@ -19,4 +19,8 @@ TARGET_2ND_CPU_VARIANT := cortex-a15
 # Blobs
 -include vendor/huawei/hi6210sft/BoardConfigVendor.mk
 
+# Board
+TARGET_BOARD_PLATFORM := hi6210sft
+
+
 
