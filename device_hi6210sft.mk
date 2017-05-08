@@ -98,6 +98,11 @@ PRODUCT_PACKAGES += \
 	lights.hi6210sft \
 	sound_trigger.primary.hi6210sft
 
+PRODUCT_GMS_CLIENTID_BASE := android-huawei
+
+PRODUCT_PROPERTY_OVERRIDES += \
+	ro.com.google.clientidbase=android-huawei
+
 # Live Wallpapers
 PRODUCT_PACKAGES += \
     	Galaxy4 \
