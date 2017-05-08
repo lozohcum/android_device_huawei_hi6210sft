@@ -29,6 +29,7 @@ BOARD_VENDOR_PLATFORM := hi6210sft
 TARGET_BOOTLOADER_BOARD_NAME := hi6210sft
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
+TARGET_NO_RPC := true
 
 # CPU
 ENABLE_CPUSETS := true
@@ -41,6 +42,9 @@ TARGET_USE_PAN_DISPLAY := true
 
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
+
+# GPS
+USE_DEVICE_SPECIFIC_GPS := true
 
 # Kernel
 BOARD_KERNEL_CMDLINE := hisi_dma_print=0 vmalloc=384M maxcpus=8 coherent_pool=512K no_irq_affinity androidboot.selinux=disabled ate_enable=true
