@@ -20,6 +20,9 @@ TARGET_2ND_CPU_ABI := armeabi-v7a
 TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a15
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := ALICE,alice,P8LITEKIRIN,p8litekirin
+
 # Blobs
 -include vendor/huawei/hi6210sft/BoardConfigVendor.mk
 
@@ -82,6 +85,3 @@ ifeq ($(TARGET_SYSTEMIMAGES_USE_SQUASHFS), true)
 BOARD_SYSTEMIMAGE_FILE_SYSTEM_TYPE := squashfs
 endif
 endif
-
-
-
