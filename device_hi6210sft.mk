@@ -33,3 +33,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_RESTRICT_VENDOR_FILES := false
 $(call inherit-product-if-exists, vendor/huawei/hi6210sft/hi6210sft-vendor.mk)
 
+# Display
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
