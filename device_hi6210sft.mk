@@ -25,3 +25,7 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # ART
 PRODUCT_RUNTIMES := runtime_libart_default
 
+# Bionic
+PRODUCT_COPY_FILES += \
+    	bionic/libc/zoneinfo/tzdata:root/system/usr/share/zoneinfo/tzdata
+
