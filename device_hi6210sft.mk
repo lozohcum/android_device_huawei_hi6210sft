@@ -9,3 +9,11 @@ PRODUCT_PACKAGES += \
     	charger_res_images \
 	charger \
 	Launcher3
+
+# ADB
+PRODUCT_PROPERTY_OVERRIDES += \
+         debug.sf.no_hw_vsync=1 \
+	 persist.sys.usb.config=mtp \
+         ro.adb.secure=0 \
+         ro.secure=0 \
+	 sys.usb.configfs=0
