@@ -59,7 +59,7 @@ $(call inherit-product-if-exists, vendor/huawei/hi6210sft/hi6210sft-vendor.mk)
 
 # Dalvik
 PRODUCT_TAGS += dalvik.gc.type-precise
-$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
+$(call inherit-product-if-exists, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Display
 TARGET_SCREEN_HEIGHT := 1280
@@ -75,7 +75,7 @@ PRODUCT_PACKAGES += \
 	setup_fs
 
 # GPS
-$(call inherit-product, device/common/gps/gps_us_supl.mk)
+$(call inherit-product-if-exists, device/common/gps/gps_us_supl.mk)
 
 # Graphics
 PRODUCT_PACKAGES += \
