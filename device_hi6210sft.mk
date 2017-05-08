@@ -53,4 +53,12 @@ PRODUCT_PACKAGES += \
 # GPS
 $(call inherit-product, device/common/gps/gps_us_supl.mk)
 
+# Graphics
+PRODUCT_PACKAGES += \
+	ion-unit-tests \
+	iontest \
+	libGLES_android \
+	libion
+
+
 

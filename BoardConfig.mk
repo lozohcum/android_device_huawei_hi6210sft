@@ -58,6 +58,13 @@ EXTENDED_FONT_FOOTPRINT := true
 # GPS
 USE_DEVICE_SPECIFIC_GPS := true
 
+# Graphics
+ANDROID_ENABLE_RENDERSCRIPT := true
+BIONIC_TESTS ?= true
+TARGET_BOARD_PLATFORM_GPU := mali-450mp
+USE_OPENGL_RENDERER := true
+WITH_DEXPREOPT ?= true
+
 # Kernel
 BOARD_KERNEL_CMDLINE := hisi_dma_print=0 vmalloc=384M maxcpus=8 coherent_pool=512K no_irq_affinity androidboot.selinux=disabled ate_enable=true
 
