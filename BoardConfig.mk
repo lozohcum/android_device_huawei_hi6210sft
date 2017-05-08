@@ -36,6 +36,9 @@ ENABLE_CPUSETS := true
 # Camera
 USE_CAMERA_STUB := true
 
+# Display
+TARGET_USE_PAN_DISPLAY := true
+
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
 
