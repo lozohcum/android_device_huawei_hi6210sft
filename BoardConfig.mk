@@ -79,6 +79,10 @@ KERNEL_CONFIG = arch/arm64/configs/defconfig android/configs/android-base.cfg
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_USES_UNCOMPRESSED_KERNEL := true
 
+# Kernel Source
+TARGET_KERNEL_CONFIG := hisi_hi6210sft_defconfig
+TARGET_KERNEL_SOURCE := kernel/huawei/hi6210sft
+
 # Minikin
 USE_MINIKIN := true
 
