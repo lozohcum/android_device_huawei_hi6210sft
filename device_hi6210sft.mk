@@ -60,6 +60,12 @@ PRODUCT_PACKAGES += \
 	libGLES_android \
 	libion
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    	debug.hwui.render_dirty_regions=false \
+    	persist.sys.strictmode.disable=1 \
+    	persist.sys.use_dithering=2 \
+    	ro.opengles.version=131072 \
+
 # Huawei P8 Lite Components
 PRODUCT_PACKAGES += \
 	gatord \
