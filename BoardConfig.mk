@@ -33,6 +33,9 @@ TARGET_NO_RADIOIMAGE := true
 # CPU
 ENABLE_CPUSETS := true
 
+# Camera
+USE_CAMERA_STUB := true
+
 # Fonts
 EXTENDED_FONT_FOOTPRINT := true
 
