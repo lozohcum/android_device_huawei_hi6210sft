@@ -84,7 +84,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
 	audio.primary.hi6210sft \
 	gatord \
-	hwclock
+	hwclock \
+	sound_trigger.primary.hi6210sft
 
 # Live Wallpapers
 PRODUCT_PACKAGES += \
