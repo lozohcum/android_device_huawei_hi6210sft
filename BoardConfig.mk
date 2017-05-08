@@ -27,6 +27,7 @@ TARGET_OTA_ASSERT_DEVICE := ALICE,alice,Che2-L11,cherry,cherryk,CherryPlus,CHM-U
 -include vendor/huawei/hi6210sft/BoardConfigVendor.mk
 
 # Board
+BOARD_HAS_LARGE_FILESYSTEM := true
 BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_VENDOR := huawei
 BOARD_VENDOR_PLATFORM := hi6210sft
