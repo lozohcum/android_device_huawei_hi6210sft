@@ -21,7 +21,7 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a15
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := ALICE,alice,P8LITEKIRIN,p8litekirin
+TARGET_OTA_ASSERT_DEVICE := ALICE,alice,hi6210sft,P8LITEKIRIN,p8litekirin
 
 # Blobs
 -include vendor/huawei/hi6210sft/BoardConfigVendor.mk
