@@ -62,6 +62,7 @@ PRODUCT_PACKAGES += \
 
 # Huawei P8 Lite Components
 PRODUCT_PACKAGES += \
-	gatord
+	gatord \
+	hwclock
 
 
