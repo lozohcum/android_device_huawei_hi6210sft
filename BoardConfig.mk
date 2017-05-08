@@ -62,6 +62,7 @@ USE_DEVICE_SPECIFIC_GPS := true
 # Graphics
 ANDROID_ENABLE_RENDERSCRIPT := true
 BIONIC_TESTS ?= true
+BOARD_EGL_CFG := device/huawei/hi6210sft/rootdir/system/lib/egl/egl.cfg
 TARGET_BOARD_PLATFORM_GPU := mali-450mp
 USE_OPENGL_RENDERER := true
 WITH_DEXPREOPT ?= true
