@@ -27,9 +27,10 @@ TARGET_OTA_ASSERT_DEVICE := ALICE,alice,Che2-L11,cherry,cherryk,CherryPlus,CHM-U
 -include vendor/huawei/hi6210sft/BoardConfigVendor.mk
 
 # Board
-TARGET_BOARD_PLATFORM := hi6210sft
+BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_VENDOR := huawei
 BOARD_VENDOR_PLATFORM := hi6210sft
+TARGET_BOARD_PLATFORM := hi6210sft
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := hi6210sft
