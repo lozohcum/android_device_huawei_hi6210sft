@@ -44,5 +44,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # File System
 PRODUCT_PACKAGES += \
     	make_ext4fs \
+	setup_fs
 
 
