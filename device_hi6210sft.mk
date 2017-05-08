@@ -112,6 +112,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     	packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:system/etc/permissions/android.software.live_wallpaper.xml
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS := $(LOCAL_PATH)/overlay
+
 # Permissions
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/rootdir/system/etc/permissions/android.hardware.screen.xml:system/etc/permissions/android.hardware.screen.xml \
