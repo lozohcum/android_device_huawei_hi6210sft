@@ -72,6 +72,9 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 
+# Kernel Config
+KERNEL_CONFIG = arch/arm64/configs/defconfig android/configs/android-base.cfg
+
 # Kernel Image
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_USES_UNCOMPRESSED_KERNEL := true
