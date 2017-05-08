@@ -60,5 +60,8 @@ PRODUCT_PACKAGES += \
 	libGLES_android \
 	libion
 
+# Huawei P8 Lite Components
+PRODUCT_PACKAGES += \
+	gatord
 
 
