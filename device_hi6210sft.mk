@@ -17,3 +17,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
          ro.adb.secure=0 \
          ro.secure=0 \
 	 sys.usb.configfs=0
+
+# AAPT
+PRODUCT_AAPT_CONFIG := xxhdpi normal
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
