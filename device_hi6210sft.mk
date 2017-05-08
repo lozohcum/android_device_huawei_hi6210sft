@@ -29,3 +29,7 @@ PRODUCT_RUNTIMES := runtime_libart_default
 PRODUCT_COPY_FILES += \
     	bionic/libc/zoneinfo/tzdata:root/system/usr/share/zoneinfo/tzdata
 
+# Blobs
+PRODUCT_RESTRICT_VENDOR_FILES := false
+$(call inherit-product-if-exists, vendor/huawei/hi6210sft/hi6210sft-vendor.mk)
+
