@@ -23,6 +23,10 @@ TARGET_2ND_CPU_VARIANT := cortex-a15
 # Assert
 TARGET_OTA_ASSERT_DEVICE := ALICE,alice,Che2-L11,cherry,cherryk,CherryPlus,CHM-U01,chm-u01,hi6210sft,hwChe2,P8LITEKIRIN,p8litekirin
 
+# Audio
+BOARD_USES_GENERIC_AUDIO := true
+BOARD_USES_ALSA_AUDIO := false
+
 # Blobs
 -include vendor/huawei/hi6210sft/BoardConfigVendor.mk
 

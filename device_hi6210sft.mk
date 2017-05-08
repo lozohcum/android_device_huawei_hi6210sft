@@ -25,6 +25,20 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # ART
 PRODUCT_RUNTIMES := runtime_libart_default
 
+# Audio
+PRODUCT_PACKAGES += \
+    	audio.a2dp.default \
+    	audio_policy.stub \
+    	audio.primary.default \
+    	audio.r_submix.default \
+    	audio.usb.default \
+    	libaudioutils \
+    	libtinyalsa \
+    	tinycap \
+    	tinyplay \
+    	tinypcminfo \
+    	tinymix
+
 # Bionic
 PRODUCT_COPY_FILES += \
     	bionic/libc/zoneinfo/tzdata:root/system/usr/share/zoneinfo/tzdata
@@ -68,6 +82,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Huawei P8 Lite Components
 PRODUCT_PACKAGES += \
+	audio.primary.hi6210sft \
 	gatord \
 	hwclock
 
