@@ -95,6 +95,7 @@ PRODUCT_PACKAGES += \
 	audio.primary.hi6210sft \
 	gatord \
 	hwclock \
+	lights.hi6210sft \
 	sound_trigger.primary.hi6210sft
 
 # Live Wallpapers
