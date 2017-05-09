@@ -103,6 +103,16 @@ PRODUCT_GMS_CLIENTID_BASE := android-huawei
 PRODUCT_PROPERTY_OVERRIDES += \
 	ro.com.google.clientidbase=android-huawei
 
+# Kernel based on Linux 3.10
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+LOCAL_KERNEL := device/huawei/hi6210sft/Image
+else
+LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
+PRODUCT_COPY_FILES += \
+    	$(LOCAL_KERNEL):kernel
+
 # Live Wallpapers
 PRODUCT_PACKAGES += \
     	Galaxy4 \
