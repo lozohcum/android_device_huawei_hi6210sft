@@ -22,6 +22,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_AAPT_CONFIG := xxhdpi normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# ART
+PRODUCT_RUNTIMES := runtime_libart_default
+
 # Audio
 PRODUCT_PACKAGES += \
     	audio.a2dp.default \
