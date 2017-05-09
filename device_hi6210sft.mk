@@ -19,8 +19,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	 sys.usb.configfs=0
 
 # AAPT
-PRODUCT_AAPT_CONFIG := xxhdpi normal
-PRODUCT_AAPT_PREF_CONFIG := xxhdpi
+PRODUCT_AAPT_CONFIG := xhdpi hdpi normal
+PRODUCT_AAPT_PREF_CONFIG := xhdpi
 
 # ART
 PRODUCT_RUNTIMES := runtime_libart_default
